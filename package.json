@@ -1,12 +1,12 @@
 {
     "title": "Breviary",
-    "name": "startbootstrap-new-age",
-    "version": "5.0.9",
+    "name": "breviary-web",
+    "version": "1.0.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch",
         "build": "node_modules/.bin/gulp"
     },
-    "description": "A one page app landing page HTML theme for Bootstrap.",
+    "description": "Breviary web presentation",
     "keywords": [
         "css",
         "sass",
@@ -15,19 +15,15 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/new-age",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-new-age/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
+    "homepage": "https://breviary.mild.blue",
+    "license": "AGPLv3",
+    "author": "Mild Blue s.r.o.",
     "contributors": [
-        "David Miller (https://davidmiller.io/)"
+        "Mild Blue s.r.o."
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-new-age.git"
+        "url": "https://github.com/mild-blue/breviary-web"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.15.1",
