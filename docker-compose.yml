@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    container_name: breviary-web
+    image: mildblue/breviary-web
+    ports:
+      - 9001:80
+    restart: always
