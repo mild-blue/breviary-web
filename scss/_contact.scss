@@ -12,11 +12,10 @@ section.contact {
         margin-bottom: 0;
         li {
             a {
-                font-size: 40px;
                 line-height: 80px;
                 display: block;
-                width: 80px;
-                height: 80px;
+                width: 100px;
+                height: 100px;
                 color: white;
                 border-radius: 100%;
             }
@@ -44,6 +43,14 @@ section.contact {
                     }
                 }
             }
+        }
+
+        .image {
+            border-radius: 66px;
+            border: 3px solid #fff;
+            background: #fff;
+            width: 100px;
+            height: 100px;
         }
     }
 }
