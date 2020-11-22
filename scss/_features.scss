@@ -41,9 +41,13 @@ section.features {
 
 #slideshow {
     width: 350px;
+
+    img {
+        width: 550px;
+    }
 }
 
 #slideshow > div {
     position: absolute;
-    top: -300px;
+    top: -350px;
 }

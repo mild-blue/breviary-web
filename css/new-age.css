@@ -287,9 +287,13 @@ section.features .feature-item i {
   width: 350px;
 }
 
+#slideshow img {
+  width: 550px;
+}
+
 #slideshow > div {
   position: absolute;
-  top: -300px;
+  top: -350px;
 }
 
 section.cta {
