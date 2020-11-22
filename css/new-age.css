@@ -249,7 +249,7 @@ section.features .section-heading p {
 
 section.features .device-container,
 section.features .feature-item {
-  max-width: 325px;
+  max-width: 350px;
   margin: 0 auto;
 }
 
@@ -281,6 +281,15 @@ section.features .feature-item i {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#slideshow {
+  width: 350px;
+}
+
+#slideshow > div {
+  position: absolute;
+  top: -300px;
 }
 
 section.cta {

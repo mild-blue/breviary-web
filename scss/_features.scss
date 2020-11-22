@@ -11,7 +11,7 @@ section.features {
     }
     .device-container,
     .feature-item {
-        max-width: 325px;
+        max-width: 350px;
         margin: 0 auto;
     }
     .device-container {
@@ -37,4 +37,13 @@ section.features {
             -webkit-text-fill-color: transparent;
         }
     }
+}
+
+#slideshow {
+    width: 350px;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: -300px;
 }
